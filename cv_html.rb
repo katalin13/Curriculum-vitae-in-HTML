@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CV project</title>
+    
+     <style>
+      body {background-color: powderblue;}
+      h1   {color: green;
+            font-style: italic;}
+      h4   {text-decoration: underline;
+           }
+      p    {color: white;
+            background-color:MediumSeaGreen;
+            border-left: 10px solid green;
+            border-radius: 8px;
+            padding: 5px;}
+
+      ul   {background-color: #aaa;
+            border-radius: 8px;
+            padding: -5px;
+            margin: 0;}
+
+      a:link {color: MediumSeaGreen;
+              background-color: transparent;
+              text-decoration: none;}
+
+      a:hover {color: #aaa;
+              background-color: transparent;
+              text-decoration: underline;
+              font-style: italic;
+              }
+      
+      .column {
+            float: left;
+            width: 40%;
+            padding: 10px;
+            height: 180px;
+            margin: 10px;
+            }
+            .column p {
+              color: black;
+            }
+      .row:after {
+            content: "";
+            display: table;
+            clear: both;}
+      @media screen and (max-width: 600px) {
+        .column {
+            width: 100%;}
+      }
+
+      table {
+            width: 100%;
+            }
+      #jobs th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+            background-color: MediumSeaGreen;
+            color: white;
+          }
+      #jobs tr:hover {background-color: #aaa;}
+      #jobs td {
+            text-align: center;
+            padding: 5px;
+          }
+
+      #education th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+            background-color: MediumSeaGreen;
+            color: white;
+          }
+      #education td {
+            text-align: center;
+            padding: 5px;
+          }
+      #education tr:hover {background-color: #aaa;}
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align:center;"><ins>Curriculum Vitae</ins></h1>
+    <h2 style="text-align:center;">Katalin-Anett Balazs</h2>
+    <h3 style="text-align:center;"><small>Southampton , Hampshire , 0745....... , <a href="https://github.com/katalin13">katalin13 @github</a></small></h3>
+    <hr>
+    
+    <h4>Professional summary</h4>
+    <p>Self-directed and motivated person, with experience in working effectively in a dynamic environment with various assignments. A good team player, able to listen and also to give advice and guidance for a better productivity.</p>
+    <br>
+    
+    <h4>Skills</h4>
+    <div class="row">
+      <div class="column" style="background-color:#aaa;">
+        <p>calm and focused</p>
+        <p>good attention to details</p>
+        <p>receptivity to new</p>
+        <p>eager to learn and improve</p>
+       </div>
+      <div class="column" style="background-color:#bbb;">
+        <p>team player, but also decision maker</p>
+        <p>very good comunication skills-social</p>
+        <p>easily adaptable to working conditions</p>
+        <p>eye and hand coordination</p>
+      </div>
+    </div>
+    <br>
+    
+    <h4>Work history</h4>
+    <table id="jobs">
+      <tr>
+        <th>Ocupation</th>
+        <th>Date</th> 
+        <th>Workplace</th>
+        <th>Job description</th>
+      </tr>
+      <tr>
+        <td><b>Production operative</b></td>
+        <td>01/2017 - Ongoing</td> 
+        <td><b>PEI-Genesis</b> - Southampton, Hampshire</td>
+        <td>Working in a team of 7 people, where communication and prioritization is key to fulfil the orders in time. Every day we get orders for assembling connectors from basic components, throughout different processes. As being the longest person who works on this line, I am assigned to teach the new employees, help whenever something gets stuck, fix any issues that might occur, make decisions for a better work-flow </td>
+      </tr>
+      <tr>
+        <td><b>Temporary worker</b></td>
+        <td>10/2016 - 12/2016</td> 
+        <td><b>The Works agency and Blue Arrow</b> - Southampton, Hampshire</td>
+        <td style='text-align: left; padding-left: 15px;'>
+          <li>Warehouse worker: picking and packing orders,</li>
+          <li>Catering,</li>
+          <li>Housekeeping,</li>
+          <li>Museum attendant.</li>
+        </td>
+      </tr>
+      <tr>
+        <td><b>Production operative</b></td>
+        <td>09/2015 - 08/2016</td>
+        <td><b>The Works agency and Blue Arrow<b> - Southampton, Hampshire</td> 
+        <td>Inspection of the ingredients: quality checking and withdrawing any alien or rotten ingredients. Packing in boxes for delivery.</td>
+      </tr>
+    </table>
+    <br>
+    
+    <h4>Education</h4>
+    <table id="education">
+      <tr>
+        <th>Degree</th>
+        <th>University</th>
+      </tr>
+      <tr>
+        <td><b>M.Sc.</b> Ecology and conservation</td>
+        <td><b>‘Babes Bolyai’ University, Faculty of biology</b> - 2015 Cluj Napoca, Romania</td>
+      </tr>
+      <tr>
+        <td><b>Bachelor of Science</b> in Biology</td>
+        <td><b>‘Alexandru Ioan Cuza’ University, Faculty of biology</b> - 2013 Iasi, Romania</td>
+      </tr>
+      <tr>
+        <td><b>Romanian GCSE</b> Mathematics-Computer science Bilingual Romanian-English</td>
+        <td><b>‘Dragos Voda’ National Colegium</b> - 2010 Sighetul Marmatiei, Romania</td>
+      </tr>
+    </table>
+    <br>
+    
+    <h4>Certifications</h4>
+    <p style="margin: 0 0 10px 0"><b>Level 2 English</b> - City and Guilds</p>
+    <pre><p style="margin: 0 0 10px 0"><b>Languages:</b> native: Hungarian and Romanian
+          English</p></pre>
+    <p style="margin: 0"><b>Codeacademy courses:</b><br></p>
+      <ul >
+        <li>Ruby</li>
+        <li>Ruby on Rails</li>
+        <li>Javascript</li>
+        <li>Git</li>
+        <li>Command line</li>
+        <li>Sass</li>
+        <li>HTML & CSS</li>
+        <li>Building a website</li>
+      </ul>
+        <p style="margin: 10px 0 0 0"><b>Udemy courses:</b><br></p>
+      <ul>
+        <li>The complete Ruby on Rails Developer course</li>
+        <li>The Web Developer Bootcamp</li>
+        <li>The complete Web Developer Course 2.0</li>
+        <li>Build Your First Website in 1 Week with HTML5 and CSS3</li>
+      </ul>
+    <p><b>Codewars:</b> 6kyu - 160 points</p>
+    <br>
+    
+  </body>
+</html>
